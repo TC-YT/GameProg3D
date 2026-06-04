@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: a8816719bc9f71d4a8f07bb7941380df
+  productGUID: 0c57a8e41da3877428ffb383c2cf6a2f
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Endless Balls
+  productName: Ball
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -679,14 +679,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Endless Balls
+  metroPackageName: Ball
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Endless Balls
+  metroApplicationDescription: Ball
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -758,10 +758,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 4f83ab93-7bf5-4b54-82d6-415df6c369d9
+  cloudProjectId: 8c7ad14c-89c5-4a58-8eb1-8f41b66d8f1c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Endless Balls
+  projectName: Ball
   organizationId: thorncrepeer
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

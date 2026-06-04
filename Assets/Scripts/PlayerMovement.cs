@@ -55,4 +55,13 @@ public class PlayerMovement : MonoBehaviour
 
         //Debug.Log(direction);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.destroyClip);
+            GameStateManager.instance.ChangeToGameOver();
+        }
+    }
 }

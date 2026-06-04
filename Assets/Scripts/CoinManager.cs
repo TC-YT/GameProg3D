@@ -1,10 +1,16 @@
+using System.Xml.Schema;
+using TMPro;
 using UnityEngine;
 
 public class CoinManager : MonoBehaviour
 {
     public static CoinManager instance; //singleton for global access
 
-    private int totalCoins;
+    public TextMeshProUGUI TxtCoin;
+
+    public TextMeshProUGUI TxtCoinTotal;
+
+    public int totalCoins;
 
     private void Awake()
     {
@@ -22,5 +28,17 @@ public class CoinManager : MonoBehaviour
     {
         totalCoins += amount;
         Debug.Log("Coin: " + totalCoins);
+        TxtCoin.text = totalCoins.ToString();
+        TxtCoinTotal.text = totalCoins.ToString();
+    }
+
+    public void Continue(int amount)
+    {
+        totalCoins -= amount;
+    }
+
+    public void CoinRestart()
+    {
+        totalCoins = 0;
     }
 }
